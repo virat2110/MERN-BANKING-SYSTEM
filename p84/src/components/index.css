@@ -1,0 +1,29 @@
+.lan-navbar{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 58%, rgb(8, 98, 139) 100%);
+    height: 80px;
+    align-items: center;
+}
+.lan-options{
+    display: flex;
+    font-size: larger;
+    margin-right: 35px;
+}
+.nav-link:hover{
+    color: rgb(140, 80, 196);
+}
+.lan-title{
+    color: aliceblue;
+    padding: 10px;
+    margin-left: 35px;
+    font-size: larger;
+    font-weight: bold;
+}
+.nav-link{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 300;
+    font-weight: bold;
+}

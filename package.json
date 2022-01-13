@@ -1,0 +1,20 @@
+{
+  "name": "project84",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild" : "NPM_CONFIG_PRODUCTION=false npm install --prefix p84 && run build --prefix p84",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "virat",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14"
+  }
+}

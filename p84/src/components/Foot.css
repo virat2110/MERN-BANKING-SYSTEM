@@ -1,0 +1,25 @@
+.footing {
+ /* height: 120px;
+ width: 120px;
+ margin-left: auto;
+bottom: 0;
+ display: block; */
+
+ display: flex;
+ align-items: center;
+
+
+}
+.footer-txt{    
+    display: flex;   
+    right: 0;
+    bottom: 0; 
+    margin-left: 1000px;
+    margin-top: 150px;
+}
+.footer-txt h3{
+    padding-right: 10px;
+}
+.copyright{
+    margin-left: 600px;
+}
